@@ -1,0 +1,17 @@
+{
+  "name": "santagamescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "serve":"node ./src/mainServer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.6.1",
+    "xlsx": "^0.18.5"
+  }
+}
