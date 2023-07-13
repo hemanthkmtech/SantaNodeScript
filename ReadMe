@@ -1,38 +1,37 @@
     Secret Santa game
 
-The above project is build using javascript language
-In this project i using backend javascript framework nodejs
+The above project is built using javascript language
+In this project, I used the backend javascript framework node-js
 
 FrameWorks
 
    Nodejs :
 
-	    This framework is used for backend for process the excel file and user data
-               Here i am asking user to enter the file using cmd
-	    For excel file reading i am using xlsx package which will help us to read data 
-               From excel file , convert data into json and json to excel file.
-	    In project i using process method then method to handle request 
+	    This framework is used for the backend to process the Excel file and user data
+               Here I am asking the user to enter the file using the cmd
+	    For Excel file reading, I am using xlsx package which will help us to read data 
+               From an Excel file, convert data into JSON and JSON to an Excel file.
 
-    Execution command for nodejs backend:
+    Execution command for node-js backend:
 
-	    To run node js we need npm which is javascript environment , where nodejs 
-               Will run,npm is node package manager which will help us to manage different 
+	    To run node js we need npm which is the javascript environment, where nodejs 
+               Will run,npm is a node package manager which will help us to manage different 
                external package in nodejs
-	    Note :  For this you need to check nodejs is installed 
+	    Note:  For this, you need to check node-js is installed 
         if not install npm in Your  System
    
-             For execution of code Run this code in terminal:
-                    first go to current project path then in command type following commands
-                          Command List:
+             For execution, Run this code in the terminal:
+                    first, go to the current project path then in command type the following commands
+                          Command-List:
                                                     npm install
                                                     npm run serve
 Inputs:
-	This project will take input as two file one is employee excel file and other is previous 
-            Year excel result file
+	This project will take input as two files one is an employee Excel file and the other is previous 
+            Year Excel result file
 
 Project process:
-	After taking input the files are send to node server which return json data of given file(employee list) and previous year result set
-    ofter both data are used to generate new result set
+	After taking input the files are sent to the node server which returns JSON data of the given file(employee list) and the previous year's result set
+    ofter both data are used to generate a new result set
 
 Output:
-	The output of given project is excel file which generate the result in the form of excel file which can find inside public folder in nodejs server
+	The output of the given project is Excel file which generates the result in the form of an Excel file which can find inside a public folder in node-js server
